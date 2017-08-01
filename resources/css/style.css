@@ -1,0 +1,77 @@
+html{
+  font-size: 18px;
+  color: white;
+}
+
+.container{
+  display: flex;
+}
+
+body{
+  width: 960px;
+}
+
+/* HEADER */
+header{
+  background-color: black;
+}
+
+header .container{
+  align-items: center;
+  padding
+}
+
+header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+header span{
+  padding: 0.66rem 0 0.66rem 1.0rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+/* MAIN BANNER */
+.main-banner{
+  background-image: url("../images/main-banner-background.jpeg");
+}
+
+.headline{
+  background-color: black;
+  padding: 20px;
+  margin: auto 70% auto 10%;
+}
+
+/* NAV BAR */
+nav{
+  background-color: red;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+/* PRODUCTS */
+.products{
+  display: flex;
+}
+
+.product{
+  display: flex;
+  background-color: black;
+}
+
+.info-title{
+  background-color: black;
+}
+
+.info-content{
+  color: black;
+}
+
+/* FOOTER */
+footer{
+  background-color: black;
+}
