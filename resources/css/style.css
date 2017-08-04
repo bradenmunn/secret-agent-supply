@@ -35,17 +35,41 @@ header span{
 /* MAIN BANNER */
 .main-banner{
   background-image: url("../images/main-banner-background.jpeg");
+  height: 25rem;
 }
 
 .headline{
   background-color: black;
-  padding: 20px;
-  margin: auto 70% auto 10%;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+  width: 20rem;
+}
+
+.headline h4,
+.headline h1{
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.headline h4{
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.headline h1{
+  font-size: 2rem;
 }
 
 /* NAV BAR */
 nav{
-  background-color: red;
+  background-color: firebrick;
+}
+
+nav .container span{
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem 0;
+  font-family: Helvetica;
 }
 
 nav a{
@@ -56,13 +80,28 @@ nav a{
 /* PRODUCTS */
 .products{
   display: flex;
+  justify-content: space-between;
 }
 
 .product{
   display: flex;
-  background-color: black;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  width: 30%;
 }
 
+.product img{
+  height: 9rem;
+  padding: 2rem auto;
+}
+
+.product .description{
+  background-color: black;
+  padding: 0.5rem auto;
+}
+
+/* INFO */
 .info-title{
   background-color: black;
 }
